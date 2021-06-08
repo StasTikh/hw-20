@@ -1,14 +1,14 @@
 
-for(let i=3; i<=1000 ;i++){
+for(let simple=3; simple<=1000; simple++){
 
         var isSimple = true;
 
-        for(let j=2; j<i; j++){
-            if(i%j == 0 && i !== j){
+        for(let check = 2; check < simple; check++){
+            if(simple % check == 0 && simple != check){
                 isSimple = false;
             }
         }
         if(isSimple == true){
-            document.writeln(i);
+            document.writeln(simple);
         }
     }
